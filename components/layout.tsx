@@ -26,12 +26,20 @@ const Layout = ({ children, title = 'Tobias Gatschet' }: Props) => (
         <header>
             <nav>
                 <Link href="/">
-                    <a>Home</a>
-                </Link>{' '}
-                |{' '}
-                <Link href="/about">
-                    <a>About</a>
-                </Link>{' '}
+                    <a>Über mich</a>
+                </Link>
+                |
+                <Link href="/politik">
+                    <a>Politik</a>
+                </Link>
+                |
+                <Link href="/job">
+                    <a>Berufserfahrung / Ausbildung</a>
+                </Link>
+                |
+                <Link href="/kontakt">
+                    <a>Kontakt</a>
+                </Link>
             </nav>
         </header>
 
