@@ -6,6 +6,22 @@
     height: 100vh;
 }
 
+.navigation {
+    display: flex;
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+    height: 60px;
+    line-height: 60px;
+    background-color: $glp_light_green;
+    color: $glp_dark_green;
+
+    .active {
+        color: red;
+        font-size: 2em;
+    }
+}
+
 // Footer
 .footer {
     height: 60px;
